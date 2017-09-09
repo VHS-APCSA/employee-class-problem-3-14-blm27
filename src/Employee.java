@@ -3,7 +3,6 @@ public class Employee
 	private String firstName;
 	private String lastName;
 	private double monthlySalary;
-	private boolean giveRaise;
 	public Employee()
 	{
 		this.firstName = "";
