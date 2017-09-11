@@ -39,6 +39,10 @@ public class Employee
 	{
 		return monthlySalary;
 	}
+	public void giveRaise()
+	{
+		monthlySalary = monthlySalary * 1.1;
+	}
 }
 
 	
