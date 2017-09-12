@@ -33,7 +33,14 @@ public class Employee
 	}
 	public void setMonthlySalary(double monthlySalary)
 	{
-		this.monthlySalary = monthlySalary;
+		if (monthlySalary >= 0.0)
+		{
+			this.monthlySalary = monthlySalary;
+		}
+		else 
+		{
+			System.out.println("Cannot have a negative salary!");
+		}
 	}
 	public double getMonthlySalary()
 	{
